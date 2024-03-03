@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sora;
+}
+#nav-bar{
+    /* border-bottom: 1px solid black; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px; 
+    /* border: 1px solid black;     */
+}
+#nav-sections{
+    display: flex;
+    justify-content: space-between;  
+    font-family: sora;
+}
+.nav-box{
+    padding: 8px;
+}
+#hero-section{
+    height: 600px;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1440px;
+    /* border: 1px solid black; */
+    
+}
+#hero-text{
+    width: 50%;
+    padding: 50px 20px 0 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    line-height: 56px;
+    padding-bottom: 20px;
+    font-size: 48px;
+    font-weight: 10;
+    
+}
+#bio{
+    padding-bottom: 16px;
+}
+#hero-image-wrapper{
+    width: 50%;
+    padding: 20px;
+}
+#hero-image{
+    width: 100%;
+    height: 100%;
+    padding-top: 0px;
+}
+.social-links{
+    border: 0;
+}
